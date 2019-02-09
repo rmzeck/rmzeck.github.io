@@ -1,0 +1,17 @@
+body.b1 {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+body.b2 {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+}
+body.b3 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+form {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+}
