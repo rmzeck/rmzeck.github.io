@@ -1,18 +1,22 @@
 body {
     font-family: Josefin Slab, serif !important;
+    background-color: blue !important;
 }
-body.b1 {
+#homepage.b1 {
     background-image: url("../images/background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
-body.b2 {
+#homepage.b2 {
     background-image: url("../images/background1.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
 }
-body.b3 {
+#homepage.b3 {
     background-image: url("../images/background2.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
 }
 form {
