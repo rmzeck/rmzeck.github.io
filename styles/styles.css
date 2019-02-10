@@ -21,6 +21,14 @@ form {
     margin-top: 5px;
 }
 
+#title {
+    margin-top: 100px;
+}
+
+.theme {
+    margin-top: 10px;
+}
+
 @font-face {
     font-family: OstrichSans;
     src: url("../styles/OstrichSans-Black.otf")
