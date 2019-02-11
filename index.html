@@ -15,8 +15,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 </head>
 
-<body>
-  <div id="homepage" class="b1">
+<body class="b1">
+  <div id="homepage">
     <div class="header">
     </div>
     <div class="container">
@@ -103,7 +103,7 @@
 
 <script>
   function changebackground(id) {
-    $('#homepage').removeClass($('#homepage').attr('class'))
-    $('#homepage').addClass('b' + id)
+    $('body').removeClass($('body').attr('class'))
+    $('body').addClass('b' + id)
   }
 </script>

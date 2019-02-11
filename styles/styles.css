@@ -1,21 +1,21 @@
 body {
     font-family: Josefin Slab, serif !important;
-    background-color: blue !important;
+    background-position: center;
 }
-#homepage.b1 {
+body.b1 {
     background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: no-repeat;    
 }
-#homepage.b2 {
+body.b2 {
     background-image: url("../images/background1.jpg");
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     color: white;
 }
-#homepage.b3 {
+body.b3 {
     background-image: url("../images/background2.jpg");
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     color: white;
 }
