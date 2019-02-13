@@ -1,21 +1,35 @@
 body {
-    font-family: Josefin Slab, serif !important;
+    /* font-family: Josefin Slab, serif !important; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     background-position: center;
 }
 body.b1 {
-    background-image: url("../images/background.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;    
+    background-color: black;
 }
 body.b2 {
+    background-color: teal;
+}
+body.b3 {
+    background-color: lightblue;
+}
+#header {
+    height: 350px;
+    border-bottom: 1px solid white;
+}
+#header.b1 {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+#header.b2 {
     background-image: url("../images/background1.jpg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
-body.b3 {
+#header.b3 {
     background-image: url("../images/background2.jpg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
@@ -25,21 +39,25 @@ form {
     margin-top: 5px;
 }
 
-#title {
-    margin-top: 100px;
-}
+/* #title {
+    margin-top: 110px;
+    
+} */
+/* #content {
+    border-top: 1px solid white;
+} */
 
 .theme {
     margin-top: 10px;
 }
 
-@font-face {
+/* @font-face {
     font-family: OstrichSans;
     src: url("../styles/OstrichSans-Black.otf")
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     body {
       
     }
-  }
+  } */
